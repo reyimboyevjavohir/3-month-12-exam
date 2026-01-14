@@ -16,8 +16,8 @@
 //     }
 //     return natija;
 // }
-// let arr = [3, 1, 4, 1, 5, 9, 2];
-// console.log(qaytaTartiblash(arr)); 
+// let arr=[3,1,4,1,5,9,2]
+// console.log(qaytaTartiblash(arr));
 
 
 
@@ -36,7 +36,7 @@
 
 //     return unique;
 // }
-// const str = "apple banana apple orange banana orange grape";
+// let str = "apple banana apple orange banana orange grape"
 // console.log(uniqueSozlar(str));
 
 
@@ -54,8 +54,8 @@
 // console.log(stringKopaytir("salom", 11));
 
 
-
 //5-masala
+
 
 // function Arry(birinchiarry,ikkinchiarry) {
 //     let natija=[]
