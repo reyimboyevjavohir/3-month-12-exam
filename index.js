@@ -1,23 +1,23 @@
 //1-masala
- function qaytaTartiblash(sonlar) {
-    let tartiblangan = [...sonlar].sort((a, b) => a - b);
-    let natija = [];
-    let chap = 0;
-    let ong = tartiblangan.length - 1;
-    while (chap <= ong) {
-        if (chap !== ong) {
-            natija.push(tartiblangan[ong]);
-            natija.push(tartiblangan[chap]);
-        } else {
-            natija.push(tartiblangan[chap]);
-        }
-        chap++;
-        ong--;
-    }
-    return natija;
-}
-let arr = [3, 1, 4, 1, 5, 9, 2];
-console.log(qaytaTartiblash(arr)); 
+//  function qaytaTartiblash(sonlar) {
+//     let tartiblangan = [...sonlar].sort((a, b) => a - b);
+//     let natija = [];
+//     let chap = 0;
+//     let ong = tartiblangan.length - 1;
+//     while (chap <= ong) {
+//         if (chap !== ong) {
+//             natija.push(tartiblangan[ong]);
+//             natija.push(tartiblangan[chap]);
+//         } else {
+//             natija.push(tartiblangan[chap]);
+//         }
+//         chap++;
+//         ong--;
+//     }
+//     return natija;
+// }
+// let arr = [3, 1, 4, 1, 5, 9, 2];
+// console.log(qaytaTartiblash(arr)); 
 
 
 
@@ -46,16 +46,12 @@ console.log(qaytaTartiblash(arr));
 
 // function stringKopaytir(matn, son) {
 //     let natija = "";
-
 //     for (let i = 0; i < son; i++) {
 //         natija += matn;
 //     }
-
 //     return natija;
 // }
-
-
-// console.log(stringKopaytir("salom", 4));
+// console.log(stringKopaytir("salom", 11));
 
 
 
